@@ -7,8 +7,9 @@ return [
     | Hashids Salt
     |--------------------------------------------------------------------------
     |
-    | This option is used to make your ids unique. You may put the name of
-    | your project or left it empty.
+    | This option is used to make your ids unique. If you don't want others to
+    | decrypt your hashes, provide a unique string used for salting. It may be
+    | the name of your project or left it empty.
     |
     */
 

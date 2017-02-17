@@ -33,7 +33,7 @@ class HashidsServiceProvider extends ServiceProvider
 	    );
 
         $this->app->singleton(Hashids::class, function ($app) {
-        	$config = $app['config']->get('hashids');
+        	$config = $app->config->get('hashids');
 
             return new Hashids($config['salt'], $config['length'], $config['alphabet']);
         });
