@@ -3,6 +3,7 @@
 namespace Junity\Hashids\Facades;
 
 use Hashids\Hashids as HashidsBase;
+use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Hashids\Hashids
