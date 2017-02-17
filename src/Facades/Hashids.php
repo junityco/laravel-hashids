@@ -2,11 +2,11 @@
 
 namespace Junity\Hashids\Facades;
 
-use Hashids\Hashids as HashidsBase;
 use Illuminate\Support\Facades\Facade;
+use Junity\Hashids\Hashids as BaseHashids;
 
 /**
- * @see \Hashids\Hashids
+ * @see \Junity\Hashids\Hashids
  */
 class Hashids extends Facade
 {
@@ -17,6 +17,6 @@ class Hashids extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return HashidsBase::class;
+        return BaseHashids::class;
     }
 }
