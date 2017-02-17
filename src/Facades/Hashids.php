@@ -2,11 +2,11 @@
 
 namespace Junity\Hashids\Facades;
 
+use Hashids\Hashids as BaseHashids;
 use Illuminate\Support\Facades\Facade;
-use Junity\Hashids\Hashids as BaseHashids;
 
 /**
- * @see \Junity\Hashids\Hashids
+ * @see \Hashids\Hashids
  */
 class Hashids extends Facade
 {

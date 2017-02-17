@@ -2,6 +2,7 @@
 
 namespace Junity\Hashids;
 
+use Hashids\Hashids;
 use Illuminate\Support\ServiceProvider;
 
 class HashidsServiceProvider extends ServiceProvider
